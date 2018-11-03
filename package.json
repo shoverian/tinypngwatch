@@ -1,0 +1,33 @@
+{
+  "name": "tinypngwatch",
+  "version": "1.0.0",
+  "description": "Monitors root directory for new image files (png or jpg) and converts them using the TinyPNG API.",
+  "main": "tinypngwatch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoverian/tinypngwatch.git"
+  },
+  "keywords": [
+    "tinypng",
+    "directory",
+    "watch",
+    "optimize",
+    "image",
+    "jpg",
+    "jpeg",
+    "png"
+  ],
+  "author": "Kyle Shover",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shoverian/tinypngwatch/issues"
+  },
+  "homepage": "https://github.com/shoverian/tinypngwatch#readme",
+  "dependencies": {
+    "chokidar": "^2.0.4",
+    "tinify": "^1.6.0-beta.2"
+  }
+}
